@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+qsub -b y -cwd -V -j y -w e -terse "$@"
